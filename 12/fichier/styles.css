@@ -1,0 +1,63 @@
+
+body {
+    background-image: url(image/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.signup-container {
+    max-width: 400px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, .2);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header img {/*
+    width: 50px; /* Ajustez la taille de l'icône */
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 28px;
+    color: white;
+}
+
+header p {
+    font-size: 14px;
+    color: white;
+}
+
+form input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+form button {
+    width: 35%;
+    padding: 10px;
+    background-color: white ;
+    color: black #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: rgb(185, 160, 160);
+}
+
+p:last-child {
+    text-align: center;
+    font-size: 14px;
+    color: white;
+}

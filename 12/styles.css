@@ -1,0 +1,128 @@
+/* styles.css */
+
+/* Conteneur principal du formulaire */
+body {
+    background-image: url(image/3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bold;
+}
+ /* styles.css */
+
+/* Conteneur principal du formulaire */
+.login-container {
+     
+    color: white;
+    color-interpolation-filters: auto;
+    max-width: 400px;
+    margin: auto; 
+    margin-left: 70vh; 
+    margin-top: 15vh;
+     padding: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+     
+    backdrop-filter: blur(0px);
+    border-radius: 10px;
+    box-shadow: 0 8px 8px rgba(39, 39, 79, 0.2);
+}
+/*
+.login-containerimg{
+    width: 100px;
+    height: 70px;
+}
+
+/* En-tête avec l'icône, le titre et la description */
+.login-container header {
+    
+    margin-bottom: 20px;
+    padding-right: 23px;
+}
+
+.login-container img {
+    width: 50px; /* Ajustez la taille de l'icône */
+    height: 50px;
+    margin-bottom: 10px;
+}
+.login-container small {
+    text-align: right;
+}
+
+.login-container h1 {
+    text-align: right;
+    font-size: 24px;
+    color: white;
+}
+/*
+p{
+    font-size: 18px;
+    color: white;
+}
+*/
+  p {
+    text-align: right;
+}
+
+.login-container p {
+    font-size: 18px;
+    color: white#777;
+     
+}
+form{
+    text-align: center;
+}
+.login-container  input{
+     
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Champs de saisie et bouton */
+.login-container form input {
+    width: 80%;
+    padding: 10px;
+    padding-left: 58px;
+    margin-bottom: 15px;
+    background-color: rgba(255, 255, 255, 0.8);
+    
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+   
+
+      
+
+.email {
+    text-align: left;
+}
+.password{
+    text-align: left;
+}
+
+.login-container form button {
+    width: 40%;
+    padding: 10px;
+    align-content: center;
+    text-align: center;
+    background-color: white#007bff;
+    color: black#fff;
+    border: none;
+    border-radius: 9px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+ button{
+     padding-right: 20%;
+ }
+
+
+.login-container form button:hover {
+    background-color: #737679;
+}
+
+/* Lien pour créer un compte */
+.login-container p:last-child {
+    text-align: center;
+    font-size: 14px;
+    color: white#555;
+}
